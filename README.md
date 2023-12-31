@@ -1,8 +1,18 @@
-# React + Vite
+# TODO App in ReactJS using context API and Local Storage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Styled using Tailwind CSS
+<br>
+- React Context is a way to manage state globally.
+  It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
+  
+- Use of local storage ensures that TODOs are saved even on reloading the page and on different tab.
+  <br>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## To use:
+<code>cd .\TODO-App
+  npm i
+  npm run dev</code>
+
+  ## Screenshot:
+  ![Screenshot](screenshot.jpg)
